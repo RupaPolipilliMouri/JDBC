@@ -15,7 +15,7 @@ package JDBC;
 			try {
 				Class.forName("com.mysql.cj.jdbc.Driver");
 				// step 2 => Establish the connection to DB
-				con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Rupadb", "root", "root");
+				con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mouritech", "root", "root");
 
 			} catch (Exception e) {
 				e.printStackTrace();
